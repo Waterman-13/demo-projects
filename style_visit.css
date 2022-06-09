@@ -1,0 +1,166 @@
+@font-face{
+  font-family: 'AMG Anahit Semi Serif Regular';
+  src: url('fonts/AMG Anahit Semi Serif Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'OpenSansLight';
+  src: url('fonts/OpenSans-Light.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.link{
+    font-size: 1.5rem;
+    color:darkorange;
+}
+.header-link{
+  margin: 0 10px;
+}
+.header {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid gray;
+    text-align: center;
+    background-color:darkcyan;
+  }
+  
+  .main{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+  }
+  .aside{
+    padding-top: 20px;
+    flex: 0;
+  }
+  .blocks{
+    margin: 10px auto;
+    text-align: center;
+  }
+  .tel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 170px;
+  }
+  .mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 170px;
+  }
+
+  .main-section{
+   padding: 2px 5px 5px 30px;
+   flex-grow: 1;
+   text-align: left;
+  }
+  
+  .about{
+    display: flex;
+    align-items: center;
+  }
+  .ic1{
+    flex: 0;
+  }
+  .ab{
+    flex: 2;
+  }
+  .ab_p{
+    padding-left: 25px;
+  }
+  .educ{
+    display: flex;
+    align-items: center;
+  }
+  .ic2{
+    flex:0;
+  }
+  .ed{
+    flex: 2;
+  }
+  .ed_p{
+    padding-left: 25px;
+  }
+  
+  .expir{
+    display: flex;
+    align-items: center;
+  }
+  .ic3{
+    flex: 0;
+  }
+  .expir_h{
+    flex: 2;
+  }
+  .expir_p{
+    padding-left: 25px;
+  }
+
+  .hobb{
+    display: flex;
+    align-items: center;
+  }
+  .ic4{
+    flex: 0;
+  }
+  .hobb_h{
+    flex: 2;
+  }
+  .hobb_ul{
+    padding-left: 25px;
+  }
+
+  .my_way{
+    display: flex;
+    align-items: center;
+  }
+  .ic5{
+    flex: 0;
+  }
+  .myway_h{
+    flex: 2;
+  }
+  .myway_ul{
+    padding-left: 25px;
+  }
+
+  .title{
+      font-family: 'AMG Anahit Semi Serif Regular';
+      font-size: 30px;
+      text-align: center;
+  }
+  
+  .main-section ul {
+    font-family: 'OpenSansLight';
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .subtitle{
+    font-family: 'AMG Anahit Semi Serif Regular';
+    color:brown;
+    background-color: khaki;
+    font-size: 20px;
+    width: auto;
+  }
+  p{
+    font-family: 'OpenSansLight'; 
+    font-size: 15px;
+  }
+  .img-wrap{
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+    background-color: darkgoldenrod;
+  }
+  .img{
+    border: 2px solid black;
+  }
+  .footer{
+    border-top: 1px solid black;
+    font-family: 'OpenSansLight';
+    text-align: center;
+  }
